@@ -21,7 +21,7 @@ Se utilizan archivos complementarios donde se almacenan variables con los datos 
 Objetivo: Lograr una distribución equitativa de equipos a partir de grupos con aproximadamente 70 alumnos.
 
 Proceso -- 
- > Carga de Datos: Iniciamos cargando la información relacionada con alumno-grupo. Posteriormente, cargamos archivos para identificar diferentes segmentaciones y aplicar 
+> Carga de Datos: Iniciamos cargando la información relacionada con alumno-grupo. Posteriormente, cargamos archivos para identificar diferentes segmentaciones y aplicar 
    filtros sobre ciertas asignaturas.
 >  Definición de Segmentaciones: Una vez que tenemos los datos, definimos las segmentaciones (Mx, LATAM). A continuación, realizamos conteos para determinar el número total 
    de grupos.
