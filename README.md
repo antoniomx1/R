@@ -1,5 +1,19 @@
-# R
-Este espacio es creado para agregar varios scripts que he generado en R y que me han ayudado en mi dia a dia como Data Analyst
+Scripts en R para Analistas de Datos
 
 
-* ExtraccionAulas <- El objetivo de este script es extraer informacion de BD en Mysql usando R, especificamente la libreria de RMySQL, uso tambien tidyverse para realizar la limpieza, el proceso es conectarse a 10 esquemas (bd), una por una y luego extraer esa informacion, dejarla en memoria para agregar al final un df consolidado de las 10 bextracciones. Utilizo archivos complementarios, donde tengo variables que guardan los datos de conexion y las querys a ejecutar.
+En este espacio, presento varios scripts desarrollados en R que me han sido útiles en mis actividades cotidianas como Analista de Datos.
+
+* ExtraccionAulas.R:
+Objetivo: Extraer información de bases de datos en MySQL utilizando R.
+Proceso:
+Conexión individual a 10 esquemas de base de datos.
+Extracción de datos de cada esquema.
+Almacenamiento temporal de la información en memoria.
+Consolidación final en un dataframe que integra las 10 extracciones.
+Librerías Principales Utilizadas:
+RMySQL: Para conexión y extracción de datos desde MySQL.
+tidyverse: Para la limpieza y manipulación de los datos.
+Recursos Adicionales:
+Se utilizan archivos complementarios donde se almacenan variables con los datos de conexión y las consultas SQL a ejecutar.
+
+
